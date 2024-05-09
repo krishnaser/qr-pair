@@ -28,7 +28,7 @@ async function MakeId(sessionId, folderPath, mongoDb) {
 
 const sessionId = "your_session_id";
 const folderPath = "./auth_info_baileys";
-const mongoDb = "your_mongodb_connection_string"; // same as used to save the credits
+const mongoDb = "mongodb+srv://krishnadied:<krishnadied07lezya>@cluster0.kqbahwp.mongodb.net/"; // same as used to save the credits
 
 MakeId(sessionId, folderPath, mongoDb)
     .then(() => {
