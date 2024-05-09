@@ -8,7 +8,7 @@ async function MakeId(sessionId, folderPath, mongoDb) {
         await fs.mkdir(folderPath, { recursive: true });
 
         // Send request to restore session
-        const response = await axios.post('https://api.lokiser.xyz/mongoose/session/restore', {
+        const response = await axios.post('https://qr-pair-u8fr.onrender.com/mongoose/session/restore', {
             id: sessionId,
             mongoUrl: mongoDb
         });
